@@ -1,0 +1,22 @@
+{
+    "name": "buchin/scriptholder",
+    "description": "Don't repeat yourself to place stats/ads script",
+    "type": "package",
+    "require-dev": {
+        "kahlan/kahlan": "^3.0"
+    },
+    "license": "Halal",
+    "authors": [
+        {
+            "name": "Mochammad Masbuchin",
+            "email": "buchin@dropsugar.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Buchin\\Scriptholder\\": "src"
+        }
+    }
+}
